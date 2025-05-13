@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "./src/main/index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "electron": "^36.2.0",
+    "electron-builder": "^26.0.12",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17"
   }

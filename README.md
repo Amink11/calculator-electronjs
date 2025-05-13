@@ -58,6 +58,14 @@ This will launch the Electron app with the calculator interface.
 - `index.js` - The main Electron.js script to initialize and display the app window.
 - `calculator.js` - The JavaScript logic for the calculator operations.
 
+
+## Build Executable
+
+To build the Windows executable for this project, run the following command:
+
+
+This will create the `.exe` file inside the `dist` folder. The `dist` folder is ignored in Git to prevent unnecessary files from being tracked.
+
 ## Contributing
 
 Feel free to fork this project and create a pull request if you have suggestions or improvements. 
