@@ -6,6 +6,14 @@
     "start": "electron .",
     "dist": "electron-builder"
   },
+  "build": {
+    "appId": "com.Amik11.id",
+    "productName": "Calculator",
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "category": "Utility"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
